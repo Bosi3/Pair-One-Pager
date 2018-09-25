@@ -1,0 +1,334 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+
+}
+
+header {
+    background-image: url('https://www.leatherhidestore.com/media/catalog/product/cache/1/small_image/239x159/c96a280f94e22e3ee3823dd0a1a87606/k/3/k365_white_smoke_c1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.dropbtn-menu {
+    background-color: bisque;
+    color: grey;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+    position: fixed;
+    display: block;
+    float: left;
+    margin: 2%;
+
+}
+
+.sub {
+    display: none;
+}
+
+#menu-sito:hover .sub{
+    display: block;
+}
+
+.menu {
+    width: 100%;
+}
+
+
+
+
+
+body {
+    background-image: url('http://www.prodital.it/upload/prodotti/img/original/15031710111_iguana_smokey_big.jpg');
+}
+
+.log-name {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+
+}
+
+.navbar {
+    width: 100%;
+    background-color: lightslategray;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 5%;
+    font-size: 25px;
+    color: darkslategray;
+}
+
+.navbar a:hover {
+    color: whitesmoke;
+
+}
+
+.promotion {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+    background-color: antiquewhite;
+    align-items: center;
+    margin-top: 3%;
+    border-radius: 20%;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+
+.col-4 {
+    float: left;
+    width: 33.3%;
+
+}
+
+.promotion img {
+    width: 78%;
+    
+    margin: 8%;
+    border-radius: 35%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px #888888;
+}
+
+.promotion h1 {
+    font-size: 70px;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.promotion-container {
+    display: block;
+}
+
+.wom-seasons {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+    background-color: antiquewhite;
+    align-items: center;
+    margin-top: 3%;
+    border-radius: 20%;
+
+
+}
+
+.wom-seasons img {
+    width: 89%;
+    margin: 4%;
+    border-radius: 35%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px #888888;
+}
+
+.wom-seasons h1 {
+    font-size: 87px;
+    padding-top: 6%;
+    text-align: center;
+}
+
+
+
+.wom-season-container {
+    display: block;
+    text-align: center;
+}
+
+.men-seasons {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+    background-color: antiquewhite;
+    align-items: justify;
+    margin-top: 3%;
+    border-radius: 20%;
+
+
+}
+
+.men-seasons img {
+    width: 89%;
+    margin: 4%;
+    border-radius: 35%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px #888888;
+}
+
+.men-seasons h1 {
+    font-size: 87px;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.men-season-container {
+    display: block;
+    text-align: center;
+}
+
+.w-s-s {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+    background-color: antiquewhite;
+    align-items: center;
+    margin-top: 3%;
+    border-radius: 20%;
+
+
+}
+
+.w-s-s img {
+    width: 24%;
+    margin: 4%;
+    border-radius: 35%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px #888888;
+}
+
+.w-s-s h1 {
+    font-size: 87px;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.w-s-s h2 {
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.w-s-s-container {
+    display: block;
+}
+
+.w-a-w {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+    background-color: antiquewhite;
+    align-items: center;
+    margin-top: 3%;
+    border-radius: 20%;
+
+
+}
+
+.w-a-w img {
+    width: 24%;
+    margin: 4%;
+    border-radius: 35%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px #888888;
+}
+
+.w-a-w h1 {
+    font-size: 87px;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.w-a-w h2 {
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.w-a-w-container {
+    display: block;
+}
+
+.m-s-s {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+    background-color: antiquewhite;
+    align-items: center;
+    margin-top: 3%;
+    border-radius: 20%;
+
+
+}
+
+.m-s-s img {
+    width: 24%;
+    margin: 4%;
+    border-radius: 35%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px #888888;
+}
+
+.m-s-s h1 {
+    font-size: 87px;
+    padding-top: 6%;
+    text-align: center;
+}
+
+
+.m-s-s h2 {
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.m-s-s-container {
+    display: block;
+}
+
+.m-a-w {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+    background-color: antiquewhite;
+    align-items: center;
+    margin-top: 3%;
+    border-radius: 20%;
+
+
+}
+
+.m-a-w img {
+    width: 24%;
+    margin: 4%;
+    border-radius: 35%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px #888888;
+}
+
+.m-a-w h1 {
+    font-size: 87px;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.m-a-w h2 {
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.m-a-w-container {
+    display: block;
+}
