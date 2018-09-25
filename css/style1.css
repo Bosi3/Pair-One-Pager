@@ -120,6 +120,7 @@ ul.breadcrumb li a {
       margin-top: 10px;
       margin-bottom: 10px;
       color: lightslategray;
+
     }
     label{
       margin-top: 10px;
@@ -218,6 +219,76 @@ ul.breadcrumb li a {
   textarea:focus, input:focus {
       color: #364afc;
   }
+  .form-control{
+display: inline-flex;
+float: right;
+  }
+  .form-groupe{
+    display: inline-flex;
+    float: right;
+      }
+  .form-check{
+    font-size: small;
+  }
+  .term>a{
+    font-size: small;
+    text-decoration: none;
+    color: #ffa500;
+  }
+  /*.check{
+  cursor: pointer;
+  position: relative;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  -webkit-tap-highlight-color: transparent;
+  transform: translate3d(0,0,0);}
+  .check>&:before{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(#223254,.03);
+    opacity: 0;
+    transition: opacity .2s ease;
+  }
+  svg{
+    position: relative;
+    z-index: 1;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #C8CCD4;
+    stroke-width: 1.5;
+    transform: translate3d(0,0,0);
+    transition: all .2s ease;}
+    svg>path
+      {stroke-dasharray: 60;
+      stroke-dashoffset: 0;}
+    svg>polyline 
+      {stroke-dasharray: 22;
+      stroke-dashoffset: 66;}
+      svg>polyline>&:hover 
+    &:before
+      {opacity: 1;}
+    svg
+      {stroke: #4285F4;}
+
+#cbx:checked>svg + .check>
+  svg
+    {stroke: #4285F4}
+    svg>path{
+      stroke-dashoffset: 60;
+      transition: all .3s linear;}
+    svg>polyline{
+      stroke-dashoffset: 42;
+      transition: all .2s linear;
+      transition-delay: .15s;
+    }*/
+      
 /**
 ------------------------FOOTER----------------
 **/
@@ -262,14 +333,12 @@ ul.breadcrumb li a {
   }
      aside{
       background-color: white;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 5%;
-      margin-bottom: 5%;
+      width: 100%;
+      margin: 5%;
       display: flex;
       text-align: center;
-      padding-bottom: 5%;
-      padding-top: 5%;
+      padding: 5%;
+      
       border-radius: 8px;
   }
    .follow>aside>i {
@@ -295,7 +364,9 @@ ul.breadcrumb li a {
       
   }
   .follow>aside>div {
-    display: inline-grid; 
+    display: inline-grid;
+    padding: 5%; 
+    width: 33%;
   }
   footer>.for{
     width: 80%;

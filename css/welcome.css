@@ -10,7 +10,7 @@ header {
     background-position: center;
 }
 
-.dropbtn-menu {
+#menu-sito {
     background-color: bisque;
     color: grey;
     padding: 16px;
@@ -20,23 +20,100 @@ header {
     display: block;
     float: left;
     margin: 2%;
-
+    box-shadow: 10px 10px 18px black;
+    padding: 24px 48px;
+    
+   
+  
 }
 
 .sub {
     display: none;
+    color: gray;
+    padding: 16px;
+    font-size: 20px;
+    list-style: none;
+    
+
+    
+}
+.sub li a {
+    padding: 2px 0 2px 6px!important;
+    
 }
 
-#menu-sito:hover .sub{
+#menu-sito:hover .sub {
     display: block;
+    color: black;
+    position: relative;
+    padding: 16px;
+    font-size: 20px;
+    list-style: none;
+
+}
+.menu-content ul li a {
+    text-decoration: none;
+    color: gray;
+    
+    padding: 16px;
+    font-size: 20px;
 }
 
-.menu {
-    width: 100%;
+.sub-sub-menu1 {
+    display: none;
+    color: gray;
+  
+    padding: 16px;
+    font-size: 20px;
+    list-style: none;
+}
+.men-btn:hover .sub-sub-menu1 {
+    display: block;
+    color: black;
+   
+    padding: 16px;
+    font-size: 20px;
+    list-style: none;
 }
 
 
+.sub-sub-menu2 {
+    display: none;
+    color: gray;
+  
+    padding: 16px;
+    font-size: 20px;
+    list-style: none;
+}
 
+.sub-menu {
+    display: none;
+    color: gray;
+   
+    padding: 16px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.women-btn:hover .sub-sub-menu2 {
+    display: block;
+    color: black;
+   
+    padding: 16px;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+.btn-pro:hover .sub-menu {
+    display:block;
+    color: black;
+   
+    padding: 16px;
+    font-size: 20px;
+    justify-content: center;
+    list-style: none;
+}
 
 
 body {
@@ -73,34 +150,117 @@ body {
 
 .promotion {
 
-    flex-direction: row;
+    display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 75%;
+    /* width: 75%; */
+    max-width: 75%;
     background-color: antiquewhite;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 3%;
-    border-radius: 20%;
+    border-radius: 12%;
     overflow: hidden;
-    text-align: center;
+    /* text-align: center; */
 
-
+}
+.test{
+    font-size: 50px;
 }
 
 .col-4 {
     float: left;
-    width: 33.3%;
-
+    width: 32.3%;
 }
 
-.promotion img {
+.col-5 {
+     float: left;
+     width: 32.3%;
+ }
+.flex-row1 {
+   flex: 1;
+}
+
+.flex-row2 {
+    flex: 1;
+    padding-bottom: 2%;
+}
+
+.flex-row1 .col-4 img {
+    /* width: 300px;
+    height: 300px; */
     width: 78%;
-    
     margin: 8%;
     border-radius: 35%;
     border: black solid 1px;
     box-shadow: 10px 10px 18px #888888;
 }
+
+.flex-row1 .col-5 img {
+    /* width: 300px;
+    height: 300px; */
+    width: 78%;
+    margin: 8%;
+    border-radius: 35%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px #888888;
+}
+
+.flex-row1  .col-4 img:hover {
+    /* width: 300px;
+    height: 300px; */
+    width: 82%;
+
+    margin: 5%;
+    border-radius: 40%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px black;
+}
+.flex-row1 .col-5 img:hover {
+    /* width: 300px;
+    height: 300px; */
+    width: 82%;
+
+   
+    border-radius: 40%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px black;
+}
+
+
+.flex-row2 .col-4 img {
+    /* width: 300px;
+    height: 300px;  */
+    width: 78%;
+    margin: 8%;
+    border-radius: 35%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px #888888;
+}
+
+.flex-row2 .col-4 img:hover {
+    /* width: 300px;
+    height: 300px; */
+    width: 82%;
+
+    margin: 6%;
+    border-radius: 40%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px black;
+}
+
+.col-4 h5 {
+    text-align: center;
+    padding-bottom: 8% !important;
+    
+}
+
+/* .flex-row h5 {
+    text-align: center;
+    padding-bottom: 8%;
+    
+} */
+    
 
 .promotion h1 {
     font-size: 70px;
@@ -109,20 +269,28 @@ body {
 }
 
 .promotion-container {
-    display: block;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+    display: inline-block;
+    overflow: hidden;
+    
 }
 
 .wom-seasons {
-
-    flex-direction: row;
+    display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 75%;
+    /* width: 75%; */
+    max-width: 75%;
     background-color: antiquewhite;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 3%;
-    border-radius: 20%;
-
+    border-radius: 15%;
+    overflow: hidden;
+    /* text-align: center; */
+    
 
 }
 
@@ -132,6 +300,14 @@ body {
     border-radius: 35%;
     border: black solid 1px;
     box-shadow: 10px 10px 18px #888888;
+}
+
+.wom-seasons img:hover {
+    width: 91%;
+    margin: 2%;
+    border-radius: 40%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px black;
 }
 
 .wom-seasons h1 {
@@ -149,15 +325,19 @@ body {
 
 .men-seasons {
 
-    flex-direction: row;
+    display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 75%;
+    /* width: 75%; */
+    max-width: 75%;
     background-color: antiquewhite;
-    align-items: justify;
+    /* align-items: center; */
     margin-top: 3%;
-    border-radius: 20%;
-
+    border-radius: 15%;
+    overflow: hidden;
+    /* text-align: center; */
+    
 
 }
 
@@ -168,6 +348,15 @@ body {
     border: black solid 1px;
     box-shadow: 10px 10px 18px #888888;
 }
+
+.men-seasons img:hover {
+    width: 91%;
+    margin: 2%;
+    border-radius: 40%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px black;
+}
+
 
 .men-seasons h1 {
     font-size: 87px;
@@ -182,25 +371,30 @@ body {
 
 .w-s-s {
 
-    flex-direction: row;
+    display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 75%;
+    /* width: 75%; */
+    max-width: 75%;
     background-color: antiquewhite;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 3%;
-    border-radius: 20%;
+    border-radius: 15%;
+    overflow: hidden;
+    /* text-align: center; */
+    
 
 
 }
 
-.w-s-s img {
+/* .w-s-s img {
     width: 24%;
     margin: 4%;
     border-radius: 35%;
     border: black solid 1px;
     box-shadow: 10px 10px 18px #888888;
-}
+} */
 
 .w-s-s h1 {
     font-size: 87px;
@@ -220,25 +414,28 @@ body {
 
 .w-a-w {
 
-    flex-direction: row;
+    display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 75%;
+    /* width: 75%; */
+    max-width: 75%;
     background-color: antiquewhite;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 3%;
-    border-radius: 20%;
-
-
+    border-radius: 15%;
+    overflow: hidden;
+    /* text-align: center; */
+    
 }
 
-.w-a-w img {
+/* .w-a-w img {
     width: 24%;
     margin: 4%;
     border-radius: 35%;
     border: black solid 1px;
     box-shadow: 10px 10px 18px #888888;
-}
+} */
 
 .w-a-w h1 {
     font-size: 87px;
@@ -258,25 +455,29 @@ body {
 
 .m-s-s {
 
-    flex-direction: row;
+    display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 75%;
+    /* width: 75%; */
+    max-width: 75%;
     background-color: antiquewhite;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 3%;
-    border-radius: 20%;
-
+    border-radius: 15%;
+    overflow: hidden;
+    /* text-align: center; */
+    
 
 }
 
-.m-s-s img {
+/* .m-s-s img {
     width: 24%;
     margin: 4%;
     border-radius: 35%;
     border: black solid 1px;
     box-shadow: 10px 10px 18px #888888;
-}
+} */
 
 .m-s-s h1 {
     font-size: 87px;
@@ -297,31 +498,35 @@ body {
 
 .m-a-w {
 
-    flex-direction: row;
+    display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 75%;
+    /* width: 75%; */
+    max-width: 75%;
     background-color: antiquewhite;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 3%;
-    border-radius: 20%;
-
+    border-radius: 15%;
+    overflow: hidden;
+    /* text-align: center; */
+    
 
 }
 
-.m-a-w img {
-    width: 24%;
-    margin: 4%;
-    border-radius: 35%;
-    border: black solid 1px;
-    box-shadow: 10px 10px 18px #888888;
-}
-
+ 
 .m-a-w h1 {
     font-size: 87px;
     padding-top: 6%;
     text-align: center;
 }
+/* .m-a-w img {
+    width: 24%;
+    margin: 4%;
+    border-radius: 35%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 18px #888888;
+} */ 
 
 .m-a-w h2 {
     text-align: center;
