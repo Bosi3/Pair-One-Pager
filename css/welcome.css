@@ -164,13 +164,16 @@ body {
     /* text-align: center; */
 
 }
-.test{
-    font-size: 50px;
-}
+
 
 .col-4 {
     float: left;
     width: 32.3%;
+    
+}
+
+.flex-row2 .col-4 {
+    margin-bottom: 3%;
 }
 
 .col-5 {
@@ -211,7 +214,7 @@ body {
     height: 300px; */
     width: 82%;
 
-    margin: 5%;
+    margin: 4%;
     border-radius: 40%;
     border: black solid 1px;
     box-shadow: 10px 10px 18px black;
@@ -251,7 +254,13 @@ body {
 
 .col-4 h5 {
     text-align: center;
-    padding-bottom: 8% !important;
+    /* padding-bottom: 8% !important; */
+    
+}
+
+.col-5 h5 {
+    text-align: center;
+    /* padding-bottom: 8% !important; */
     
 }
 
@@ -287,7 +296,7 @@ body {
     background-color: antiquewhite;
     /* align-items: center; */
     margin-top: 3%;
-    border-radius: 15%;
+    border-radius: 12%;
     overflow: hidden;
     /* text-align: center; */
     
@@ -334,7 +343,7 @@ body {
     background-color: antiquewhite;
     /* align-items: center; */
     margin-top: 3%;
-    border-radius: 15%;
+    border-radius: 12%;
     overflow: hidden;
     /* text-align: center; */
     
@@ -380,7 +389,7 @@ body {
     background-color: antiquewhite;
     /* align-items: center; */
     margin-top: 3%;
-    border-radius: 15%;
+    border-radius: 12%;
     overflow: hidden;
     /* text-align: center; */
     
@@ -423,7 +432,7 @@ body {
     background-color: antiquewhite;
     /* align-items: center; */
     margin-top: 3%;
-    border-radius: 15%;
+    border-radius: 12%;
     overflow: hidden;
     /* text-align: center; */
     
@@ -464,7 +473,7 @@ body {
     background-color: antiquewhite;
     /* align-items: center; */
     margin-top: 3%;
-    border-radius: 15%;
+    border-radius: 12%;
     overflow: hidden;
     /* text-align: center; */
     
@@ -507,7 +516,7 @@ body {
     background-color: antiquewhite;
     /* align-items: center; */
     margin-top: 3%;
-    border-radius: 15%;
+    border-radius: 12%;
     overflow: hidden;
     /* text-align: center; */
     
